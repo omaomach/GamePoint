@@ -65,17 +65,35 @@ h2 {
 }
 
 #addGameForm {
-    margin-top: 25px;
+    margin-top: 10px;
     text-align: center;
 }
 
 input[type=text] {
     border-radius: 6px;
+    width: 225px;
     height: 20px;
 }
-input[type=button] {
+textarea {
     border-radius: 6px;
-    height: 25px;
+    width: 225px;
+}
+#gamePoster {
+    content: 'Select Poster File';
+    border-radius: 6px;
+    height: 20px;
+    margin-left: 36px;
+}
+
+#gameDesc {
+    margin-top: 3px;
+    height: 70px;
+}
+
+#addGame {
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 30px;
 }
 
 #availableGames {
