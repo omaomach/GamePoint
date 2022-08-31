@@ -12,7 +12,7 @@ body {
     z-index: 1000;
 }
 .parent {
-    background: #fff;
+    color: #fff;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -40,7 +40,7 @@ h2 {
     height: 665px;
     float: left;
     border-radius: 10px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #centerSection {
@@ -50,7 +50,7 @@ h2 {
     margin-left: 25px;
     float: left;
     border-radius: 10px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #rightSection {
@@ -61,6 +61,53 @@ h2 {
     padding-right: 25px;
     float: left;
     border-radius: 10px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
+
+#addGameForm {
+    margin-top: 25px;
+    text-align: center;
+}
+
+input[type=text] {
+    border-radius: 6px;
+    height: 20px;
+}
+input[type=button] {
+    border-radius: 6px;
+    height: 25px;
+}
+
+#availableGames {
+    margin-left: 25px;
+}
+#gameList {
+    background-color: grey;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+
+}
+h3 {
+    color: #fff;
+}
+
+#selectedGameImage {
+    width: 750px;
+    height: 370px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+#imageCards {
+    display: inline-block;
+    background-color: beige;
+    width: 750px;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
 
