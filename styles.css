@@ -37,27 +37,30 @@ h2 {
 #leftSection {
     background-color: grey;
     width: 200px;
-    height: 100px;
+    height: 665px;
     float: left;
     border-radius: 10px;
+    opacity: 0.5;
 }
 
 #centerSection {
     background-color: grey;
     width: 750px;
-    height: 100px;
+    height: 695px;
     margin-left: 25px;
     float: left;
     border-radius: 10px;
+    opacity: 0.5;
 }
 
 #rightSection {
     background-color: grey;
     width: 400px;
-    height: 100px;
+    height: 695px;
     margin-left: 25px;
     padding-right: 25px;
     float: left;
     border-radius: 10px;
+    opacity: 0.5;
 }
 
