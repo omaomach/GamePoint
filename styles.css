@@ -37,14 +37,14 @@ h2 {
 #leftSection {
     background-color: grey;
     width: 250px;
-    height: 665px;
+    height: 695px;
     float: left;
     border-radius: 10px;
     opacity: 0.7;
 }
 
 #centerSection {
-    background-color: grey;
+    background-color: #000;
     width: 750px;
     height: 695px;
     margin-left: 25px;
@@ -54,7 +54,7 @@ h2 {
 }
 
 #rightSection {
-    background-color: grey;
+    background-color: #000;
     width: 350px;
     height: 695px;
     margin-left: 25px;
@@ -97,17 +97,66 @@ h3 {
 #selectedGameImage {
     width: 750px;
     height: 370px;
-    background-color: lightgrey;
+    background-color: grey;
     border-radius: 10px;
 }
 
 #imageCards {
     display: inline-block;
-    background-color: beige;
+    background-color: #000;
     width: 750px;
     height: 240px;
     border-radius: 10px;
     margin-top: 25px;
 }
+.gameCards {
+    background-color: grey;
+    width: 165px;
+    height: 240px;
+    border-radius: 10px;
+    float: left;
+}
+
+#card1 {
+    margin-left: 7.5px;
+}
+#card2 {
+    margin-left: 25px;
+}
+#card3 {
+    margin-left: 25px;
+}
+#card4 {
+    margin-left: 25px;
+}
+
+#gameDescription {
+    width: 375px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 10px;
+}
+#gameReviews {
+    width: 375px;
+    height: 325px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 12.5px;
+}
+#gameRating {
+    width: 375px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 12.5px;
+}
+#userReview {
+    width: 375px;
+    height: 120px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
 
 
