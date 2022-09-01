@@ -1,3 +1,24 @@
 {
-    
+    "game": [
+        {
+            "id": 1,
+            "name": "God of War 5",
+            "description": "God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio and will be published by Sony Interactive Entertainment (SIE). It is scheduled to be released worldwide on November 9, 2022, for the PlayStation 4 (PS4) and PlayStation 5 (PS5).",
+            "poster": "https://cdn.mos.cms.futurecdn.net/MeU4HokrzUwhbd9PJBQCSV-970-80.png.webp"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "gameName": "God of War 5",
+            "content": "probably one of the best games I have ever played. Has a long storyline, packed with action and adventure"
+        }
+    ],
+    "cards": [
+        {
+            "id": 1,
+            "nameOfGame": "God of War 5"
+        }
+    ]
+
 }
