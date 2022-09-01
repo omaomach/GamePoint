@@ -108,6 +108,11 @@ textarea {
     color: #fff;
 
 }
+
+ul {
+    cursor: pointer;
+}
+
 h3 {
     color: #fff;
 }
@@ -115,7 +120,13 @@ h3 {
 #selectedGameImage {
     width: 750px;
     height: 370px;
-    background-color: grey;
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+}
+.imgHolder img {
+    max-width: 750px;
+    max-height: 370px;
     border-radius: 10px;
 }
 
