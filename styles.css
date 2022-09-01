@@ -161,10 +161,11 @@ h3 {
 
 #gameDescription {
     width: 375px;
-    height: 150px;
-    background-color: grey;
+    height: 100px;
+    background-color: #000;
     border-radius: 10px;
     margin-top: 12.5px;
+    text-align: center;
 }
 #gameReviews {
     width: 375px;
@@ -175,16 +176,31 @@ h3 {
 }
 #name {
     width: 375px;
-    height: 50px;
-    background-color: grey;
+    height: 25px;
+    background-color: #000;
     border-radius: 10px;
-    
+    text-align: center;
+}
+#nameOfSelectedGame {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #userReview {
     width: 375px;
     height: 120px;
-    background-color: grey;
+    background-color: #000;
     border-radius: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#addReview {
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#inputForm2 {
     margin-top: 25px;
 }
 
