@@ -5,6 +5,120 @@
             "name": "God of War 5",
             "description": "God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio and will be published by Sony Interactive Entertainment (SIE). It is scheduled to be released worldwide on November 9, 2022, for the PlayStation 4 (PS4) and PlayStation 5 (PS5).",
             "poster": "https://cdn.mos.cms.futurecdn.net/MeU4HokrzUwhbd9PJBQCSV-970-80.png.webp"
+        },
+        {
+            "id": 2,
+            "name": "Resident Evil 2",
+            "description": "Resident Evil 2 is a 2019 survival horror game developed and published by Capcom.",
+            "poster": "https://pcgameabout.com/media/filer_public/37/c4/37c43b42-59b8-4609-bbb3-6ee8366a6eaa/6623a6b1-5f22-4f59-ac72-e251761a2ddb.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Devil May Cry 5",
+            "description": "Devil May Cry 5 is a 2019 action-adventure game developed and published by Capcom. It is the sixth installment overall and the fifth mainline installment in the Devil May Cry series.",
+            "poster": "https://www.devilmaycry5.com/assets/img/age/logo.png"
+        },
+        {
+            "id": 4,
+            "name": "The Outer Worlds",
+            "description": "The Outer Worlds is a 2019 action role-playing game developed by Obsidian Entertainment and published by Private Division. The game was released for PlayStation 4, Xbox One, and Microsoft Windows in October 2019, with a Nintendo Switch version released in June 2020.",
+            "poster": "https://cdn.mos.cms.futurecdn.net/V2nwWALMhiAbtyZeVRdGXG-970-80.jpeg.webp"
+        },
+        {
+            "id": 5,
+            "name": "Grand Theft Auto",
+            "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games.",
+            "poster": "https://www.iwmbuzz.com/wp-content/uploads/2022/05/check-out-the-top-gta-5-visual-graphics-mods-for-2022-2-920x518.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Marvel's The Avengers",
+            "description": "Marvel's Avengers is a 2020 action-adventure brawler game developed by Crystal Dynamics and published by Square Enix's European subsidiary.",
+            "poster": "https://cdn.givemesport.com/wp-content/uploads/2022/05/Marvels-Avengers-Update-2.5-Jane-Foster-1024x576.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Sackboy: A Big Adventure",
+            "description": "Sackboy: A Big Adventure is a 2020 platform game developed by Sumo Digital and published by Sony Interactive Entertainment for the PlayStation 4 and the PlayStation 5.",
+            "poster": "https://asset.vg247.com/sackboy_a_big_adventure_01.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/sackboy_a_big_adventure_01.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Star Wars Jedi: Fallen Order",
+            "description": "Star Wars Jedi: Fallen Order is an action-adventure game developed by Respawn Entertainment and published by Electronic Arts. It was released for Windows, PlayStation 4 and Xbox One in November 2019, for Stadia in November 2020, and for the PlayStation 5 and Xbox Series X and Series S in June 2021.",
+            "poster": "https://s.yimg.com/uu/api/res/1.2/LvYRcwJwhqJbqYeLBXfXgg--~B/Zmk9ZmlsbDtoPTM4MDt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/uu/api/res/1.2/I6bwbhLwrg3kC5J2YksunQ--~B/aD0xMDEzO3c9MTgwMDthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/images/dims?resize=2000%2C2000%2Cshrink&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2019-06%2F525a8510-8d68-11e9-9fb8-c7a20f578fd0&client=a1acac3e1b3290917d92&signature=013e2b3776ab7a63182ead85dd29d6abc8e9ba0d.cf.webp"
+        },
+        {
+            "id": 9,
+            "name": "Horizon Forbidden West",
+            "description": "Horizon Forbidden West is a 2022 action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment.",
+            "poster": "https://cdn.mos.cms.futurecdn.net/6edushF3VyxtVr2XhnEfYh-970-80.jpg.webp"
+        },
+        {
+            "id": 10,
+            "name": "Call of Duty: Modern Warfare",
+            "description": "Call of Duty: Modern Warfare is a 2019 first-person shooter game developed by Infinity Ward and published by Activision.",
+            "poster": "https://airentertainment.biz/wp-content/uploads/2019/10/Screenshot_4-46c3-810x400.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Hitman 3",
+            "description": "Hitman 3 is a 2021 stealth game developed and published by IO Interactive. It is the sequel to the 2018 video game Hitman 2, the eighth main installment in the Hitman series and the third and final entry in the World of Assassination trilogy. ",
+            "poster": "https://cdn.player.one/sites/player.one/files/styles/full_large/public/2020/12/29/hitman-3.png"
+        },
+        {
+            "id": 12,
+            "name": "Marvel's Spiderman: Miles Morales",
+            "description": "Marvel's Spider-Man: Miles Morales is a 2020 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment.",
+            "poster": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/09/marvel-spider-man-miles-morales-iz-1920x1080-1-920x518.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Elden Ring",
+            "description": "Elden Ring is a 2022 action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. It was directed by Hidetaka Miyazaki with worldbuilding provided by the fantasy writer George R. R. Martin.",
+            "poster": "https://image-cdn.essentiallysports.com/wp-content/uploads/feecce7d-eldenring-2.jpg?width=900"
+        },
+        {
+            "id": 14,
+            "name": "FIFA 22",
+            "description": "FIFA 22 is a football simulation video game published by Electronic Arts. It is the 29th installment in the FIFA series, and was released worldwide on 1 October 2021 for Microsoft Windows, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S.",
+            "poster": "https://nextvame.com/wp-content/uploads/2022/03/As-it-happened-the-football-legend-disappeared-from-FIFA-22-1024x576.jpeg"
+        },
+        {
+            "id": 15,
+            "name": "Batman Arkhum Knight",
+            "description": "Batman: Arkham Knight is a 2015 action-adventure game developed by Rocksteady Studios and published by Warner Bros. Interactive Entertainment. Based on the DC Comics superhero Batman, it is the successor to the 2013 video game Batman: Arkham Origins, and the fourth main installment in the Batman: Arkham series. ",
+            "poster": "https://assets.reedpopcdn.com/batman-arkham-knight-canned-sequel-apparently-shown-via-concept-art-1636459291569.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/batman-arkham-knight-canned-sequel-apparently-shown-via-concept-art-1636459291569.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Mortal Kombat 11",
+            "description": "Mortal Kombat 11 is a 2019 fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment.",
+            "poster": "https://variety.com/wp-content/uploads/2019/04/screen-shot-2019-04-22-at-7.18.17-am.png?w=681&h=383&crop=1&resize=681%2C383"
+        },
+        {
+            "id": 17,
+            "name": "Ratchet & Clank",
+            "description": "Ratchet & Clank is a series of action platformer and third-person shooter video games. The franchise was created and developed by Insomniac Games and published by Sony Interactive Entertainment for PlayStation consoles.",
+            "poster": "https://9to5toys.com/wp-content/uploads/sites/5/2015/06/ratchet-clank-2016-e3-new-ps4.png?resize=1200,600"
+        },
+        {
+            "id": 18,
+            "name": "Red Dead Redemption 2",
+            "description": "Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption.",
+            "poster": "https://www.slantmagazine.com/wp-content/uploads/2018/10/reddeadredemption2.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Uncharted 4: A Thief's End",
+            "description": "Uncharted 4: A Thief's End is a 2016 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. It is the fourth main entry in the Uncharted series.",
+            "poster": "https://cdn.ndtv.com/tech/gadgets/uc_4_thiefs_end.jpg?"
+        },
+        {
+            "id": 20,
+            "name": "The Witcher 3: Wild Hunt",
+            "description": "The Witcher 3: Wild Hunt is a 2015 action role-playing game developed and published by CD Projekt. It is the sequel to the 2011 game The Witcher 2: Assassins of Kings and the third game in The Witcher video game series, played in an open world with a third-person perspective.",
+            "poster": "https://api.cdkeybay.com/static/fd958644c7177d99dc484f15.jpg"
         }
     ],
     "reviews": [
