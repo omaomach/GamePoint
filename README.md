@@ -23,6 +23,13 @@ I was unable to deploy my db.json file to heroku and integrate it with the deplo
 and run it on your machine to see how it works.
 As so as the db.json file is deployed, all the data will be avaible online as well.
 
+## Netlify deployment
+
+This worked on my machine because I still had my local server running.
+
+<img src="./assets/sackboy,png">
+[GamePoint](https://tiny-daffodil-b6d9df.netlify.app/)
+
 ## Setup Requirements
 1. Visual Studio Code IDE
 2. Chrome Web Browser
