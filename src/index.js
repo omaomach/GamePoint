@@ -17,13 +17,57 @@ function getGameNames() {
     })
 }
 
-function getGameCard() {
-    fetch('http://localhost:3000/cards')
+function postGame() {
+    const inputForm1 = document.querySelector('form')
+    inputForm1.addEventListener('submit', (e) => {
+        e.preventDefault()
+        let game = document.getElementById('gameName').value
+        let desc = document.getElementById('gameDesc').value
+        let url = document.getElementById('gameImageUrl').value
+        fetch('http://localhost:3000/game', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body:JSON.stringify({
+                name: game,
+                description: desc,
+                poster: url 
+            })
+        })
+        .then((res) => res.json())
+        .then((data) => console.log(data))
+        
+    })
+
+}
+
+function postReview() {
+    const inputForm2 = document.querySelector('#inputForm2')
+    inputForm2.addEventListener('submit', (e) => {
+        e.preventDefault()
+        let usergameReview = document.getElementById('userGameReview').value
+        fetch('http://localhost:3000/reviews', {
+            method: 'POST',
+            headers: {
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                gameName: getGameNames,
+                content: usergameReview
+            })
+        })
+        .then((res) => res.json())
+        .then((data) => console.log(data))
+
+    })
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     gameInfo(1)
     getGameNames()
+    postGame()
+    postReview()
 })
 
 // const list = document.querySelector('ul')
