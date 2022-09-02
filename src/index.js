@@ -82,13 +82,4 @@ document.addEventListener('DOMContentLoaded', () => {
 // }
 
 
-// function initialize() {
-//     getGameName()
-//     getGamePoster()
-//     getDisplayGameName()
-//     getDisplayGameDescription()
-// }
-
-// initialize()
-
 // //...{o_<}...//
