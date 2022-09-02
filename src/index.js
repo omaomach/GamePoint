@@ -1,6 +1,6 @@
 // //...{o_o}...//
 function gameInfo(id) {
-    fetch(`https://git.heroku.com/fakejsonapi254.git${id}`)
+    fetch(`https://fakejsonapi254.herokuapp.com/${id}`)
     .then((res) => res.json())
     .then((data) => {
         document.getElementById('gameDescription').innerHTML = data.description
@@ -11,7 +11,7 @@ function gameInfo(id) {
 }
 
 function getGameNames() {
-    fetch('https://git.heroku.com/fakejsonapi254.git')
+    fetch('https://fakejsonapi254.herokuapp.com')
     .then((res) => res.json())
     .then((data) => {
         document.getElementById('list').innerHTML = data.map((game) => `<li onClick="gameInfo(${game.id})">${game.name}</li>`).join('')
@@ -25,7 +25,7 @@ function postGame() {
         let game = document.getElementById('gameName').value
         let desc = document.getElementById('gameDesc').value
         let url = document.getElementById('gameImageUrl').value
-        fetch('https://git.heroku.com/fakejsonapi254.git', {
+        fetch('https://fakejsonapi254.herokuapp.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
