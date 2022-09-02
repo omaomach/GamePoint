@@ -6,6 +6,14 @@
 
 GamePoint is a simple, single page website that can  be used by gamers to get more info on games through the reviews of other gamers.
 
+## Screenshots
+
+<img src="./assets/godofwar.png">
+<img src="./assets/militia.png">
+<img src="./assets/witcher.png">
+<img src="./assets/uncharted.png">
+
+
 ## Link to the Website
 [GamePoint](https://omaomach.github.io/GamePoint/)
 
@@ -30,7 +38,7 @@ The database for this project is run and supported by JSON server. Run json-serv
 ## Design Tools
 The project being a single website, there were no design tools used. I created the design using pencil and paper.
 
-<img src="./home/cheatcode/Pictures/Project/design.jpg"
+<img src="./home/cheatcode/Pictures/Project/design.jpg">
 
 ## Known Bugs
 The project has no Bugs

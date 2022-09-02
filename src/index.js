@@ -1,4 +1,4 @@
-// //...{o_o}...//
+//...{o_o}...//
 function gameInfo(id) {
     fetch(`http://localhost:3000/game/${id}`)
     .then((res) => res.json())
@@ -83,61 +83,5 @@ document.addEventListener('DOMContentLoaded', () => {
     getCards()
     postReview()
 })
-
-// const list = document.querySelector('ul')
-
-// function getGameName() {
-//     fetch('http://localhost:3000/game')
-//     .then((res) => res.json())
-//     .then((data) => {
-//         list.innerHTML = data.map(list => {
-//             return `<li>${list.name}</li>`
-//         }).join('')
-//     })
-
-// }
-
-// function getGamePoster() {
-//     fetch('http://localhost:3000/game')
-//     .then((res) => res.json())
-//     .then((data) => {
-//         const mainGamePoster = document.getElementById('selectedGameImage')
-//         // let availableGamesList = document.querySelector('li')
-//         list.addEventListener('click', () => {
-//             data.map(game => {
-//                 mainGamePoster.innerHTML = `<img src="${game.poster}">`
-//             })
-            
-//         })
-//     })
-
-// }
-
-// function getDisplayGameName() {
-//     fetch('http://localhost:3000/game')
-//     .then((res) => res.json())
-//     .then((data) => {
-//         const name = document.getElementById('name')
-//         list.addEventListener('click', () => {
-//             data.map((game) => {
-//               name.innerHTML = `<h3>${game.name}</h3>`  
-//             })
-//         })
-//     })
-// }
-
-// function getDisplayGameDescription() {
-//     fetch('http://localhost:3000/game')
-//     .then((res) => res.json())
-//     .then((data) => {
-//         const description = document.getElementById('gameDescription');
-//         list.addEventListener('click', () => {
-//             data.map((game) => {
-//                 description.innerHTML = `<h5>${game.description}</h5>`
-//             })
-//         })
-//     })
-// }
-
 
 // //...{o_<}...//
