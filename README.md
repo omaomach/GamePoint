@@ -8,7 +8,7 @@ GamePoint is a simple, single page website that can  be used by gamers to get mo
 
 ## Screenshots
 
-Notice the right section of the webpage which hosts the selected game name and its reviews which are different for each game. It also hosts the review submission form.
+Notice the right section of the webpage which hosts the selected game name, description and its reviews which are all different for each game. It also hosts the review submission form.
 
 <img src="./assets/fifa.png">
 <img src="./assets/godofwar.png">
