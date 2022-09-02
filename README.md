@@ -7,7 +7,7 @@
 GamePoint is a simple, single page website that can  be used by gamers to get more info on games through the reviews of other gamers.
 
 ## Link to the Website
-[GamePoint]()
+[GamePoint](https://omaomach.github.io/GamePoint/)
 
 ## Setup Requirements
 1. Visual Studio Code IDE

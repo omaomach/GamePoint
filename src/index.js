@@ -1,6 +1,6 @@
 // //...{o_o}...//
 function gameInfo(id) {
-    fetch(`https://fakejsonapi254.herokuapp.com/${id}`)
+    fetch(`http://localhost:3000/game/${id}`)
     .then((res) => res.json())
     .then((data) => {
         document.getElementById('gameDescription').innerHTML = data.description
@@ -11,7 +11,7 @@ function gameInfo(id) {
 }
 
 function getGameNames() {
-    fetch('https://fakejsonapi254.herokuapp.com')
+    fetch('http://localhost:3000/game')
     .then((res) => res.json())
     .then((data) => {
         document.getElementById('list').innerHTML = data.map((game) => `<li onClick="gameInfo(${game.id})">${game.name}</li>`).join('')
@@ -25,7 +25,7 @@ function postGame() {
         let game = document.getElementById('gameName').value
         let desc = document.getElementById('gameDesc').value
         let url = document.getElementById('gameImageUrl').value
-        fetch('https://fakejsonapi254.herokuapp.com', {
+        fetch('http://localhost:3000/game', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -44,32 +44,44 @@ function postGame() {
 
 }
 
-// function postReview() {
-//     const inputForm2 = document.querySelector('#inputForm2')
-//     inputForm2.addEventListener('submit', (e) => {
-//         e.preventDefault()
-//         let usergameReview = document.getElementById('userGameReview').value
-//         fetch('http://localhost:3000/reviews', {
-//             method: 'POST',
-//             headers: {
-//                 'Content-Type':'application/json'
-//             },
-//             body:JSON.stringify({
-//                 gameName: gameInfo,
-//                 content: usergameReview
-//             })
-//         })
-//         .then((res) => res.json())
-//         .then((data) => console.log(data))
+function getCards() {
+    fetch('http://localhost:3000/cards')
+    .then((res) => res.json())
+    .then((data) => {
+        let cards = document.getElementById('imageCards')
+        cards.innerHTML = data.map(card => {
+            return `<img src="${card.poster}">`
+        }).join('')
+    })
 
-//     })
-// }
+}
+
+function postReview() {
+    const inputForm2 = document.querySelector('#inputForm2')
+    inputForm2.addEventListener('submit', (e) => {
+        e.preventDefault()
+        let usergameReview = document.getElementById('userGameReview').value
+        fetch('http://localhost:3000/game', {
+            method: 'POST',
+            headers: {
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                reviews: usergameReview
+            })
+        })
+        .then((res) => res.json())
+        .then((data) => console.log(data))
+
+    })
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     gameInfo(1)
     getGameNames()
     postGame()
-    // postReview()
+    getCards()
+    postReview()
 })
 
 // const list = document.querySelector('ul')
