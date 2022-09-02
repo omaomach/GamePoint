@@ -16,6 +16,9 @@ GamePoint is a simple, single page website that can  be used by gamers to get mo
 
 ## Link to the Website
 [GamePoint](https://omaomach.github.io/GamePoint/)
+I was unable to deploy my db.json file to heroku and integrate it with the deployed website, thus the lack of functionality. Please clone the project
+and run it on your machine to see how it works.
+As so as the db.json file is deployed, all the data will be avaible online as well.
 
 ## Setup Requirements
 1. Visual Studio Code IDE
@@ -38,10 +41,10 @@ The database for this project is run and supported by JSON server. Run json-serv
 ## Design Tools
 The project being a single website, there were no design tools used. I created the design using pencil and paper.
 
-<img src="./home/cheatcode/Pictures/Project/design.jpg">
+<img src="./assets/design.jpg">
 
 ## Known Bugs
-The project has no Bugs
+The project has no known Bugs
 
 ## Support and Contact Details
 In the case that the project becomes captivating to the user in that he/she may want to share ideas on how to improve it, please contact me using my github email:
