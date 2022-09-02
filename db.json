@@ -4,13 +4,28 @@
       "id": 1,
       "name": "God of War 5",
       "description": "God of War Ragnarök is an upcoming action-adventure game developed by Santa Monica Studio and will be published by Sony Interactive Entertainment (SIE). It is scheduled to be released worldwide on November 9, 2022, for the PlayStation 4 (PS4) and PlayStation 5 (PS5).",
-      "poster": "https://cdn.mos.cms.futurecdn.net/MeU4HokrzUwhbd9PJBQCSV-970-80.png.webp"
+      "poster": "https://cdn.mos.cms.futurecdn.net/MeU4HokrzUwhbd9PJBQCSV-970-80.png.webp",
+      "reviews": [
+        {
+          "id": 1,
+          "gameName": "God of War 5",
+          "content": "I think this is a must have game for all game lovers"
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Resident Evil 2",
       "description": "Resident Evil 2 is a 2019 survival horror game developed and published by Capcom.",
-      "poster": "https://pcgameabout.com/media/filer_public/37/c4/37c43b42-59b8-4609-bbb3-6ee8366a6eaa/6623a6b1-5f22-4f59-ac72-e251761a2ddb.jpeg"
+      "poster": "https://pcgameabout.com/media/filer_public/37/c4/37c43b42-59b8-4609-bbb3-6ee8366a6eaa/6623a6b1-5f22-4f59-ac72-e251761a2ddb.jpeg",
+      "reviews": [
+        {
+          "id": 1,
+          "gameName": "Resident Evil",
+          "content": "You have to try out this game"
+        }
+      ]
+
     },
     {
       "id": 3,
@@ -125,21 +140,12 @@
       "description": "Mini Militia - Doodle Army 2 is all about intense multiplayer combat! Battle with up to 6 players online in this 2D fun cartoon themed cross between Soldat and Halo, inspired on the original stickman shooter Doodle Army. A must have mobile game\n",
       "poster": "https://imag.malavida.com/mvimgbig/download-fs/doodle-army-2-mini-militia-19220-1.jpg",
       "id": 22
-    }
-  ],
-  "reviews": [
-    {
-      "id": 1,
-      "gameName": "God of War 5",
-      "content": "probably one of the best games I have ever played. Has a long storyline, packed with action and adventure"
     },
     {
-      "content": "A really awesome game to have",
-      "id": 2
-    },
-    {
-      "content": "Game review",
-      "id": 3
+      "name": "Injustice 2",
+      "description": "Injustice 2 is a 2017 fighting video game based upon the DC Universe. It is developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. It is the sequel to 2013's Injustice: Gods Among Us.",
+      "poster": "https://imag.malavida.com/mvimgbig/download-fs/doodle-army-2-mini-militia-19220-1.jpg",
+      "id": 23
     }
   ],
   "cards": [

@@ -44,9 +44,9 @@
                 </div>
                 <div id="addGameForm">
                     <form id="inputForm1">
-                        <input type="text" id="gameName" placeholder="Game Name"><br>
-                        <textarea id="gameDesc">Game description</textarea><br>
-                        <input type="text" id="gameImageUrl" placeholder="Game Poster Url"><br>
+                        <input type="text" id="gameName" placeholder="Game Name" required><br>
+                        <textarea id="gameDesc" required>Game description</textarea><br>
+                        <input type="text" id="gameImageUrl" placeholder="Game Poster Url" required><br>
                         <input type="submit" id="addGame" value="Add Game">
                     </form>
                 </div>
@@ -87,7 +87,7 @@
                 </div>
                 <div id="userReview">
                     <form id="inputForm2">
-                        <textarea id="userGameReview">Game review</textarea><br>
+                        <input type="text" id="userGameReview" placeholder="Game Review" required><br>
                         <input type="submit" id="addReview" value="Add Review">
                     </form>
 
