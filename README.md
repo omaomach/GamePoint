@@ -4,7 +4,7 @@
 
 ## Description
 
-GamePoint is a simple, single page website that can  be used by gamers to get more info on games through the reviews of other gamers about the game.
+GamePoint is a simple, single page website that can  be used by gamers to get more info on games through the reviews of other gamers.
 
 ## Link to the Website
 [GamePoint]()
