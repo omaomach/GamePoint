@@ -53,7 +53,7 @@ function postReview() {
                 'Content-Type':'application/json'
             },
             body:JSON.stringify({
-                gameName: getGameNames,
+                gameName: gameInfo,
                 content: usergameReview
             })
         })
