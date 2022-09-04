@@ -67,7 +67,7 @@ function postReview() {
                 'Content-Type':'application/json'
             },
             body:JSON.stringify({
-                reviews: usergameReview
+                content: usergameReview
             })
         })
         .then((res) => res.json())

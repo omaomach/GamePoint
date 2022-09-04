@@ -114,9 +114,13 @@ ul {
     cursor: pointer;
 }
 
-ul:hover {
-    
+#list li:hover {
+    font-size: 1em;
+    color: #000;
 }
+/* li {color: red} */
+
+li:active {color: #000}
 
 h3 {
     color: #fff;

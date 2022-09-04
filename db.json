@@ -8,19 +8,19 @@
       "reviews": [
         {
           "id": 1,
-          "content": "I think this is a must have game for all game lovers"
+          "content": "This a top game, I would recommend it to anyone"
         },
         {
           "id": 2,
-          "content": "I dont think there is a game in the world as difficult as this one"
+          "content": "Its full of adventure and also has alot of actions scenes"
         },
         {
           "id": 3,
-          "content": "This is an awesome game, packed with adventure and action"
+          "content": "Main character switches making it even more awesome"
         },
         {
-          "id": 1,
-          "content": "The game takes forever to end, I think its worth your money and time"
+          "id": 4,
+          "content": "I like it alot"
         }
       ]
     },
@@ -297,29 +297,12 @@
       "description": "Mini Militia - Doodle Army 2 is all about intense multiplayer combat! Battle with up to 6 players online in this 2D fun cartoon themed cross between Soldat and Halo, inspired on the original stickman shooter Doodle Army. A must have mobile game\n",
       "poster": "https://imag.malavida.com/mvimgbig/download-fs/doodle-army-2-mini-militia-19220-1.jpg",
       "id": 21,
-      "reviews": [
-        {
-          "id": 1,
-          "content": "This a top notch mobile game, I would recommend it to anyone"
-        },
-        {
-          "id": 2,
-          "content": "I dont like the doodle graphics"
-        },
-        {
-          "id": 3,
-          "content": "The good thing is its free of charge"
-        },
-        {
-          "id": 4,
-          "content": "I like it alot"
-        }
-      ]
+      "reviews": []
     },
     {
-      "name": "Injustice 2",
-      "description": "This is a really awesome game, you should try it out.",
-      "poster": "https://image-cdn.essentiallysports.com/wp-content/uploads/feecce7d-eldenring-2.jpg?width=900",
+      "name": "Spiderman 3",
+      "description": "This is an awesome game to play.",
+      "poster": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/09/marvel-spider-man-miles-morales-iz-1920x1080-1-920x518.jpg",
       "id": 22
     }
   ],
