@@ -61,7 +61,7 @@ function postReview() {
     inputForm2.addEventListener('submit', (e) => {
         e.preventDefault()
         let usergameReview = document.getElementById('userGameReview').value
-        fetch('http://localhost:3000/game', {
+        fetch('https://protected-meadow-41722.herokuapp.com/game', {
             method: 'POST',
             headers: {
                 'Content-Type':'application/json'
