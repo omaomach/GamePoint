@@ -161,10 +161,6 @@
         {
           "id": 2,
           "content": "Rather difficult for my taste"
-        },
-        {
-          "id": 3,
-          "content": "Fully packed with gun fire and alot of action scenes"
         }
       ]
     },
@@ -298,12 +294,6 @@
       "poster": "https://imag.malavida.com/mvimgbig/download-fs/doodle-army-2-mini-militia-19220-1.jpg",
       "id": 21,
       "reviews": []
-    },
-    {
-      "name": "Spiderman 3",
-      "description": "This is an awesome game to play.",
-      "poster": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/09/marvel-spider-man-miles-morales-iz-1920x1080-1-920x518.jpg",
-      "id": 22
     }
   ],
   "cards": [
