@@ -56,25 +56,25 @@ function getCards() {
 
 }
 
-function postReview() {
-    const inputForm2 = document.querySelector('#inputForm2')
-    inputForm2.addEventListener('submit', (e) => {
-        e.preventDefault()
-        let usergameReview = document.getElementById('userGameReview').value
-        fetch('https://stormy-fjord-78805.herokuapp.com/game', {
-            method: 'POST',
-            headers: {
-                'Content-Type':'application/json'
-            },
-            body:JSON.stringify({
-                content: usergameReview
-            })
-        })
-        .then((res) => res.json())
-        .then((data) => console.log(data))
+// function postReview() {
+//     const inputForm2 = document.querySelector('#inputForm2')
+//     inputForm2.addEventListener('submit', (e) => {
+//         e.preventDefault()
+//         let usergameReview = document.getElementById('userGameReview').value
+//         fetch('https://stormy-fjord-78805.herokuapp.com/game', {
+//             method: 'POST',
+//             headers: {
+//                 'Content-Type':'application/json'
+//             },
+//             body:JSON.stringify({
+//                 content: usergameReview
+//             })
+//         })
+//         .then((res) => res.json())
+//         .then((data) => console.log(data))
 
-    })
-}
+//     })
+// }
 
 document.addEventListener('DOMContentLoaded', () => {
     gameInfo(1)
