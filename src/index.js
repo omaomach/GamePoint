@@ -1,6 +1,6 @@
 //...{o_o}...//
 function gameInfo(id) {
-    fetch(`http://localhost:3000/game/${id}`)
+    fetch(`https://protected-meadow-41722.herokuapp.com/game/${id}`)
     .then((res) => res.json())
     .then((data) => {
         document.getElementById('gameDescription').innerHTML = data.description
@@ -11,7 +11,7 @@ function gameInfo(id) {
 }
 
 function getGameNames() {
-    fetch('http://localhost:3000/game')
+    fetch('https://protected-meadow-41722.herokuapp.com/game')
     .then((res) => res.json())
     .then((data) => {
         document.getElementById('list').innerHTML = data.map((game) => `<li onClick="gameInfo(${game.id})">${game.name}</li>`).join('')
@@ -25,7 +25,7 @@ function postGame() {
         let game = document.getElementById('gameName').value
         let desc = document.getElementById('gameDesc').value
         let url = document.getElementById('gameImageUrl').value
-        fetch('http://localhost:3000/game', {
+        fetch('https://protected-meadow-41722.herokuapp.com/game', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ function postGame() {
 }
 
 function getCards() {
-    fetch('http://localhost:3000/cards')
+    fetch('https://protected-meadow-41722.herokuapp.com/cards')
     .then((res) => res.json())
     .then((data) => {
         let cards = document.getElementById('imageCards')
