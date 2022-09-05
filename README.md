@@ -28,7 +28,7 @@ As so as the db.json file is deployed, all the data will be avaible online as we
 This worked on my machine because I still had my local server running.
 
 <img src="./assets/sackboy.png">
-[GamePoint](https://tiny-daffodil-b6d9df.netlify.app/)
+[GamePoint](https://6315c933d8aeff325d3400a2--unique-florentine-a67303.netlify.app/)
 
 ## Setup Requirements
 1. Visual Studio Code IDE
